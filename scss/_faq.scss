@@ -1,0 +1,113 @@
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+  }
+  .navbar-all {
+    background-color: #fff;
+  
+    .nav-item a {
+      font-size: 13px;
+      color: #061224e5;
+      line-height: 24px;
+    }
+  
+    .btn-1 {
+      align-items: center;
+      background-color: transparent;
+      border: 1px solid;
+      border-color: #1064e5;
+      border-radius: 100px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 500;
+      justify-content: center;
+      line-height: 20px;
+      width: 100px;
+      min-height: 40px;
+    }
+    .btn-1:hover{
+      transition: 0.5s;
+    background-color: #1064e5;
+    color: #fff;
+    }
+  
+    .btn-2 {
+      align-items: center;
+      background-color: #1064e5;
+      border: 0;
+      border-radius: 100px;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 500;
+      justify-content: center;
+      line-height: 20px;
+      width: 180px;
+      min-height: 40px;
+    }
+    .btn-2:hover{
+      transition: 0.5s;
+      color: #1064e5;
+      background-color: #fff;
+      border: 1px solid;
+      border-color: #1064e5;
+    }
+  
+    .select-one {
+      border: 0;
+      background-color: #deeefc;
+    }
+  }
+// NAVBAR END
+
+// ACCORDION START
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../assets/minus-mavi.svg");
+  // transform: translateX(-300px);
+  color: #1064E5;
+}
+.accordion-button::after {
+  background-image: url("../assets/plus-mavi.svg");
+  // transform: translateX(-300px);
+}
+
+.active a{
+  color: black !important;
+}
+
+
+.accordion-button:not(.collapsed){
+  background-color: #fff;
+  color: #061224E5;
+  border: 0;
+}
+
+.accordion-button:focus{
+  border-color: #fff;
+  box-shadow: none;
+}
+
+// ACCORDION END
+  .btn-frm{
+    align-items: center;
+      background-color: #1064e5;
+      border: 0;
+      border-radius: 100px;
+      box-sizing: border-box;
+      color: #ffffff;
+      font-weight: 400;
+      justify-content: center;
+      line-height: 20px;
+      width: 192px;
+      min-height: 50px;
+  }
+

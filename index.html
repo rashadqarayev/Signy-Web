@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <title>RU/ Signy Web</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION START  -->
+    <header>
+      <!-- NAVBAR START -->
+      <nav
+        class="navbar navbar-light navbar-expand-lg navbar-main navbar-fixed"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="../img/Group 7.png" alt=""/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel"
+          >
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="/index.html"
+                ><img src="../img/Group 7.png"  alt=""
+              /></a>
+              <i class="fa-solid fa-xmark close closenav" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            <div class="offcanvas-body ms-auto text-uppercase">
+              <ul class="navbar-nav gap-3 flex-grow-1 pe-0" >
+                <li class="nav-item dropdown nav-s">
+                  <a
+                    class="nav-link dropdown-toggle text-dark"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    0 800 750 643
+                  </a>
+                  <ul
+                    class="dropdown-menu border-0"
+                    aria-labelledby="navbarDropdown"
+                    style="background-color: transparent;padding: 0;"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">+380 44 334 56 43</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">+380 44 338 86 43</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown nav-dr">
+                  <a class="nav-link dropdown-toggle text-dark" href="/About-US.html"  id="navbarDropdown"  role="button"  aria-expanded="false">
+                    ПРО НАС
+                  </a>
+                  <ul class="dropdown-menu border-0"style="padding:0;background-color: transparent;">
+                    <li><a class="dropdown-item" href="/Blog Page.html">Блог</a></li>
+                    <li><a class="dropdown-item" href="/Video-Page.html">Видео</a></li>
+                    <li><a class="dropdown-item" href="/FAQ.html" >Вопросы</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link " aria-current="page" href="/Blog-Post.html">ЦЕНЫ</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link " aria-current="page" href="/Contacts.html">КОНТАКТЫ</a>
+                </li>
+                <div class="nav-btns d-flex">
+                  <li class="nav-item" style="margin-right: 25px;">
+                    <a href="#"><button class="btn  btn-1 mx-2"  type="submit">Вход</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#"><button class="btn  btn-2" type="button">Pегистрация</button></a>
+                  </li>
+                </div>
+                <li class="nav-item dropdown lang-drop">
+                  <a class="nav-link dropdown-toggle text-dark"   id="navbarDropdown"  role="button"  aria-expanded="false" style="font-size: 16px">
+                    RUS
+                  </a>
+                  <ul class="dropdown-menu border-0" style=" background-color: transparent;">
+                    <li><a class="dropdown-item" style="font-size: 16px;" >UKR</a></li>
+                    
+                  </ul>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR END -->
+
+      <!-- CAROUSEL START -->
+
+      <div class="slider-header">
+        <div class="container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators gap-4">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+              <button 
+                type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0">
+                      <p class="carousel-title ">
+                        Цифровой документооборот в три этапа:
+                      </p>
+                      <div class="my-pagination   mt-4">
+                        <span class="slider-mg slider-mg-active" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" tabindex="0" role="button" aria-label="Go to slide 1">1</span>
+                        <span class="slider-mg" tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" role="button" aria-label="Go to slide 2">2</span>
+                        <span class="slider-mg" tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" role="button" aria-label="Go to slide 3">3</span>
+                      </div>
+                      
+
+                      <div>
+                        <h1 class="mt-3">Быстрая регистрация</h1>
+                   
+                        <p class="slider-subtitle mt-3">
+                          Мы создали едва ли не самую простую процедуру
+                          регистрации. Регистрируйся и стань частью мира
+                          цифрового документооборота!
+                        </p>
+                      </div>
+                      <a href="#"><button class="btn  btn-2 mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalToggle"  type="button">Попробовать Бесплатно</button></a>
+                    </div>
+                    <div class="image-slider">
+                      <img src="/img/slider-1.png" class="img-1" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0">
+                      <p class="carousel-title">
+                        Цифровой документооборот в три этапа:
+                      </p>
+                      <div class="my-pagination   mt-4">
+                        <span class="slider-mg " data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" tabindex="0" role="button" aria-label="Go to slide 1">1</span>
+                        <span class="slider-mg slider-mg-active" tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" role="button" aria-label="Go to slide 2">2</span>
+                        <span class="slider-mg" tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" role="button" aria-label="Go to slide 3">3</span>
+                      </div>
+                      
+
+                      <div>
+                      
+                        <h1 class="mt-3">Загрузи документ</h1>
+                        <p class="mt-3 slider-subtitle">
+                          Загружай в систему любой документ которые надо подписать, договор, акт выполненных работ,
+да что угодно
+                        </p>
+                      </div>
+                      <a href="#"><button class="btn  btn-2 mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalToggle"  type="button">Попробовать Бесплатно</button></a>
+                    </div>
+                    <div class="image-slider">
+                      <img src="/img/slider-2.png" class="img-1" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0">
+                      <p class="carousel-title">
+                        Цифровой документооборот в три этапа:
+                      </p>
+                      <div class="my-pagination   mt-4">
+                        <span class="slider-mg " data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" tabindex="0" role="button" aria-label="Go to slide 1">1</span>
+                        <span class="slider-mg " tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" role="button" aria-label="Go to slide 2">2</span>
+                        <span class="slider-mg slider-mg-active" tabindex="0" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" role="button" aria-label="Go to slide 3">3</span>
+                      </div>
+                      
+
+                      <div >
+                        
+                        <h1 class="mt-3">Подпиши и отправь</h1>
+
+                        <p class="mt-3 slider-subtitle">
+                          Подписывай своей электронно-цифровой подписью и за долю секунды отправь партнеру или компании.
+Он подписывает в ответ и все! Готово! 
+                        </p>
+                      </div>
+                      <a href="#"><button class="btn btn-2 mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalToggle"  type="button">Попробовать Бесплатно</button></a>
+                    </div>
+                    <div class="image-slider">
+                      <img src="/img/slider-3.png" class="img-1 img-1-3" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL END -->
+
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+    <!-- VECTOR BOXES SECTION START -->
+
+    <section class="vector-boxes">
+    <div class="container">
+    
+      <div class="row justify-content-evenly ">
+        
+        <div  class="card col-lg-3 col-md-4 my-4 col-8  d-flex flex-row border-0 ">
+          <img src="/img/vector-img-1.png"  width="60px" height="60px" class="card-img-left mt-5" alt="...">
+          <div class="card-body " >
+            <h3 class="card-title px-2 mt-1">Моментально</h3>
+            <p class="card-text  px-2 mt-3">Никаких задержек.
+              1 секунда на подписание</p>
+          </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-4 my-4  col-8 d-flex flex-row border-0">
+          <img src="/img/vector-img-2.png"  width="60px" height="60px" class="card-img-left mt-5" alt="...">
+          <div class="card-body" >
+            <h3 class="card-title px-2 mt-1">Глобально</h3>
+            <p class="card-text  px-2 mt-3">Сервис доступен 24\7 со всех устройств</p>
+          </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-4 my-4  col-8 d-flex flex-row border-0">
+          <img src="/img/vector-img-3.png"  width="60px" height="60px" class="card-img-left mt-5" alt="...">
+          <div class="card-body" >
+            <h3 class="card-title px-2 mt-1">Экономно</h3>
+            <p class="card-text px-2 mt-3">В 30 раз дешевле чем почта и курьеры</p>
+          </div>
+        </div>
+  
+
+  
+      
+  
+      </div>
+    </div>
+  </section>
+
+    <!-- VECTOR BOXES SECTION END -->
+
+    <!--   INFORMATION DESK SECTION START -->
+
+    <section class="information-desk overflow-hidden" style="background-color: #D8F1F0;">
+    <div class="container">
+
+      <div class="row justify-content-between my-5">
+        <div class="col-sm-12 col-lg-5 col-md-6">
+          <h1>Комфорт в работе</h1>
+          <p class="mx-3"> - Создавай документы по твоим личным привычным шаблонам. Это индивидуально!</p>
+          <p class="mx-3">- Настраивай порядок подписание документа, если вас несколько человек. Это ответственно!</p>
+          <p class="mx-3">- Загружай XML файл с собственным шаблоном готового документа. Это удобно!</p>
+          <p class="mx-3">- Работай в супер простом и понятном интерфейсе без сложностей. Это приятно!</p>
+          <a href="#"><button class="btn  btn-5 mx-3 text-uppercase mt-2" data-bs-toggle="modal"
+            data-bs-target="#exampleModalToggle" type="submit">Узнать больше</button></a>
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <img src="../img/image 7.png" class="img img-info mt-4">
+        </div>
+      </div>
+
+      <div class="row justify-content-between my-5">
+        <div class="col-lg-4 col-md-5 me-auto info-2">
+          <img src="../img/image 7.png" class="img img-info mt-4">
+        </div>
+        <div class="col-sm-12 col-lg-5 col-md-6 mt-4 ms-3">
+          <h1>Наш продукт это:</h1>
+          <p class="mx-3"> - Web версия без установки программного обеспечения</p>
+          <p class="mx-3">- Возможность бесплатно и безлимитно обрабатывать входящие документы</p>
+          <p class="mx-3">- Простота интеграции с 1С и другими сервисами</p>
+          <p class="mx-3">- Поддержка входа через Mobile ID</p>
+          <a href="#"><button class="btn  btn-6 mx-3 text-uppercase mt-4" type="submit">Зарегистрироваться</button></a>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+    <!--   INFORMATION DESK SECTION END -->
+
+    <!-- PRICING BOXES SECTION START  -->
+
+    <section class="pricing-boxes overflow-hidden">
+  <div class="container overflow-hidden ">
+   <h1 class="text-center my-5">Пакеты цифровых подписей </h1>
+   <div class="row gx-5 ">
+
+     <div class="col-lg-3 col-md-6 col-8 mx-auto">
+       <div class="card price-card px-4 border-0 mb-5" style="background-color: #DEEEFC;">
+         <h3 class="p-3">Demo</h3>
+         <div class="card-body">
+           <p>30 документів</p>
+           <p class="lo-1"><span class="display-4">0</span> грн/місяць</p>
+         </div>
+         <button class="btn  btn-7 mb-5 mx-auto text-uppercase " type="button">Зарегистрироваться</button>
+       </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-8 mx-auto">
+       <div class="card price-card px-4 border-0 mb-5" style="background-color: #DEEEFC;">
+         <h3 class="p-3">Business</h3>
+         <div class="card-body">
+           <p>1000 документів</p>
+           <p class="lo-1"><span class="display-4">1000</span> грн/рік</p>
+         </div>
+         <button class="btn  btn-7 mb-5 mx-auto text-uppercase" type="button">Закакзать</button>
+       </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-8 mx-auto">
+       <div class="card price-card px-4 border-0 mb-5" style="background-color: #DEEEFC;">
+         <h3 class="p-3">Demo</h3>
+         <div class="card-body">
+           <p>10 000 документів</p>
+           <p class="lo-1"><span class="display-4">9000</span> грн/рік</p>
+         </div>
+         <button class="btn  btn-7 mb-5 mx-auto text-uppercase " type="button">Закакзать</button>
+       </div>
+     </div>
+
+     <div class="col-lg-3 col-md-6 col-8 mx-auto">
+       <div class="card price-card px-4 border-0 mb-5" style="background-color: #DEEEFC;">
+         <h3 class="p-3">Individual</h3>
+         <div class="card-body">
+           <p class="mb-2">Необмежена кількість документів</p>
+           <p class="lo-1 mb-0 opacity-0"><span class="display-4">0</span> грн/рік</p>
+         </div>
+         <button class="btn  btn-7 mb-5 mx-auto text-uppercase " type="button">Связаться с нами</button>
+       </div>
+     </div>
+     
+    
+
+   </div>
+  </div>
+</section>
+
+    <!-- PRICING BOXES SECTION END  -->
+
+    <!-- DOCUMENT BOX SECTION START -->
+
+    <section class="documnet-box" style="background-color:#D8F1F0" >
+  <div class="container">
+    <div class="card-body col-lg-12 col-md-12 d-flex flex-column  align-items-center">
+      <h1 class="display-1 mt-1">5 820 125 114 </h1>
+      <h4 class="display-6 ">подписано документов</h4>
+      <p class="text-center mb-3">Наша компания уже более 30 лет создает удобные <br> решения для бизнеса любого размера. Мы гордимся <br> Signy как безопасным и комфортным продуктом</p>
+    </div>
+  </div>
+</section>
+
+    <!-- DOCUMENT BOX SECTION END  -->
+
+    <!-- COMPANY LOGOS SECTION START -->
+
+    <section class="company-logos">
+  <div class="container">
+    <h1 class="text-center mt-5">Друзья Signy</h1>
+    <div class="row justify-content-evenly my-5">
+
+      <div class="col-6 card col-lg-2 col-sm-4 col-md-3 border-0">
+        <img src="../img/comp-1.png" class="card-img-top" alt="...">
+        
+      </div>
+
+      <div class="col-6 card col-lg-2 col-sm-4 col-md-3 border-0">
+        <img src="../img/comp-2.png" class="card-img-top" alt="...">
+        
+      </div>
+
+      <div class="col-6 card col-lg-2 col-sm-6 col-md-3 border-0 non-visible">
+        <img src="../img/comp-3.png" class="card-img-top" alt="...">
+        
+      </div>
+
+      <div class="col-6 card col-lg-2 col-sm-6 col-md-3 border-0 non-visible">
+        <img src="../img/11 (1).png"  class="card-img-top" alt="...">
+        
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+    <!-- COMPANY LOGOS SECTION END -->
+
+    <!-- STUDY BOXES SECTION START -->
+
+    <section class="study-boxes overflow-hidden">
+  
+  <div class="container">
+    
+    <div class="row justify-content-between gx-5">
+      <h1 class="text-center my-4">Интересно пишем про </h1>
+      
+      <div class="col-12 col-lg-4 mb-5 col-md-6 study-box">
+        <div class="card border-0" style="background-color: transparent;border-radius: 0px;" >
+          <img class="card-img-top" src="../img/study-1.png" alt="">
+          <div class="card-body p-0 mt-2">
+            <span class="card-title mx-2">28.05.2020</span>
+            <h3 class="card-text mx-2">Заголовок короткий в две строки</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 mb-5 col-md-6 study-box">
+        <div class="card border-0" style="background-color: transparent;" >
+          <img class="img-fluid" src="../img/study-2.png" alt="">
+          <div class="card-body p-0 mt-2">
+            <span class="card-title mx-2">28.05.2020</span>
+            <h3 class="card-text mx-2">Заголовок короткий в две строки</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 mb-5 col-md-6 non-vs">
+        <div class="card border-0" style="background-color: transparent;" >
+          <img class="img-fluid" src="../img/study-1.png" alt="">
+          <div class="card-body p-0 mt-2">
+            <span class="card-title mx-2">28.05.2020</span>
+            <h3 class="card-text mx-2">Заголовок короткий в две строки</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+   
+    <!-- STUDY BOXES SECTION END -->
+
+    <!-- MAIN PAGE VIDEO SECTION START -->
+
+    <section class="main-pg-video">
+  <div class="container"> 
+    
+    <div class="row d-flex flex-column align-items-center">
+      <h1 class="text-center mt-5">Познакомимся в живую?</h1>
+      
+      <div class="pc-box col-lg-10 col-md-10 col-sm-12 my-5">
+        <img src="../img/video.png"  class="card-img-top opacity-75" >
+        
+      </div>
+    
+
+    </div>
+  </div>
+</section>
+
+    <!-- MAIN PAGE VIDEO SECTION END -->
+
+    <!-- MAIN ACCORDION START -->
+
+    <section class="main-accordion p-5" style="background-color: #DEEEFC;">
+  <div class="container">
+      <div class="row">
+        <h2 class="text-center mb-4">Популярные вопросы и ответы на них</h2>
+      <div class="accordion accordion-flush ">
+        
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-one">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-one" aria-expanded="false" aria-controls="flush-collapseone-one">
+              <b>Почему круглую пиццу ставят в квадратную коробку, а нарезают треугольниками?</b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-one" class="accordion-collapse collapse"  aria-labelledby="flush-headingone-one" data-bs-parent="#accordionFlushExample2">
+            <div class="accordion-body" style="background-color: #DEEEFC;"  >Потому что делают ее без соблюдения технологических процессов.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-two">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-two" aria-expanded="false" aria-controls="flush-collapseone-two">
+              <b>Почему после ремонта дорога опять проваливается?</b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-two" class="accordion-collapse collapse" aria-labelledby="flush-headingone-two" data-bs-parent="#accordionFlushExample2">
+            <div class="accordion-body" style="background-color: #DEEEFC;" >Потому что делают ее без соблюдения технологических процессов.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-three">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-three" aria-expanded="false" aria-controls="flush-collapseone-three">
+              <b>Почему вода мокрая?</b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-three" class="accordion-collapse collapse" aria-labelledby="flush-headingone-three" data-bs-parent="#accordionFlushExample3">
+            <div class="accordion-body" style="background-color: #DEEEFC;">Add Your Information</div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-four">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-four" aria-expanded="false" aria-controls="flush-collapseone-four">
+              <b>Видят ли микробы друг друга?</b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-four" class="accordion-collapse collapse" aria-labelledby="flush-headingone-one" data-bs-parent="#accordionFlushExample4">
+            <div class="accordion-body" style="background-color: #DEEEFC;">Add Your Information</div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-five">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-five" aria-expanded="false" aria-controls="flush-collapseone-five">
+              <b>Почему кровь красная а вены синие?</b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-five" class="accordion-collapse collapse" aria-labelledby="flush-headingone-five" data-bs-parent="#accordionFlushExample5">
+            <div class="accordion-body" style="background-color: #DEEEFC;">Add Your Information</div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 mx-auto mb-3 col-lg-5" style="background-color: #DEEEFC;">
+          <h2 class="accordion-header1" id="flush-headingone-six">
+            <button class="accordion-button collapsed" type="button" style="background-color: #DEEEFC;" data-bs-toggle="collapse" data-bs-target="#flush-collapseone-six" aria-expanded="false" aria-controls="flush-collapseone-six">
+              <b>Из чего сделана радуга? </b>
+            </button>
+          </h2>
+          <div id="flush-collapseone-six" class="accordion-collapse collapse" aria-labelledby="flush-headingone-six" data-bs-parent="#accordionFlushExample6">
+            <div class="accordion-body" style="background-color: #DEEEFC;">Add Your Information</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+  </div>
+</section>
+
+    <!-- MAIN ACCORDION END -->
+
+    <!--  MAIN FORM SECTION START -->
+
+
+    <section class="main-form text-dark text-center ">
+      <div class="container ">
+        <div class="row ">
+          <h2 class="text-center my-5">Популярные вопросы и ответы на них</h2>
+      <p class="mb-4">Введи свой электронный адрес и будь в курсе всех обновлений</p>
+      <form class="d-flex align-items-center justify-content-center gap-3 d-md-flex md-flex-column mb-5">
+        <input type="email " required>
+        <button class="btn btn-frm text-uppercase my-4" data-bs-toggle="modal" data-bs-target="#exampleModal"  type="button">отправить</button>
+      </form>
+        </div>
+      </div>
+      
+    </section>
+
+    <div
+      class="modal fade send-modal"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h1 class="modal-title w-100" id="exampleModalLabel">Отлично!</h1>
+          </div>
+          <div class="modal-body">
+            <p class="text-center">
+              На адресс <b>example@maile.com</b> теперь будут приходить самые
+              важные новости
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+
+    <footer class="text-center text-muted" style="background-color: #061224;">
+  
+      <!-- Section: Links  -->
+      <section class="footer">
+        <div class="container text-center text-md-start">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mb-5 my-5 col-sm-3 col-3">
+              Content
+              <h6 class="mt-4">
+                <a href="/index.html"><img  src="/img/group 8.png" class="text-light" alt=""></a>
+              </h6>
+              <p  class="mt-5 text-muted"> 
+                © 2022 Signy
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-1 mx-auto mb-4 mt-5 col-sm-4 col-4">
+             
+              <p class="mt-4">
+                <a href="/About-US.html" class="text-light">Про нас<br>
+                   
+                  </a>
+                  <a href="/Blog-Post.html" class="text-light">Цены<br>
+                   
+                  </a>
+              </p>
+              
+              <p class="mt-5">
+                <a href="#!" class="text-light">Вход <br>
+                  Регистрация
+                  </a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+             <!-- Grid column -->
+             <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4 my-5 col-sm-2 col-2">
+              
+              <p class="mt-4">
+                <a href="/Blog Page.html" class="text-light">Блог <br>
+                  
+                  </a>
+                  <a href="/Contacts.html" class="text-light">Контакты <br>
+                    </a>
+              </p>
+            </div>
+
+            <div  class="d-xl-none d-lg-none arrow-box">
+              <a href="#"><i  class="fa-solid fa-arrow-up-long "></i></a>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 my-5 col-sm-6 col-6">
+              
+              <p class="mt-4 text-light" > infosmartsign@smarttender.biz</p>
+              <p class="text-light">Facebook</p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+    
+            <div class=" col-md-5 col-lg-4 col-xl-2 mx-auto mb-4 my-5 col-sm-6 col-6">
+            
+              <p class="mt-4"> пр-т Миколи Бажана, 14 А
+                Київ, 02072</p>
+              <p class="mb-2"> 0 800 750643</p>
+              <p class="mb-1">+380 44 334 56 43</p>
+              <p class="mt-2">+380 44 334 56 43</p>
+            </div>
+              <!-- Links -->
+              
+            </div>
+            
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class=" text-center text-light p-4" style="background-color: #061224">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://github.com/ReshadDev">BY Reshad Qarayev</a>
+      </div>
+      Copyright belong to NJ Web
+    </footer>
+
+    <!-- FOOTER SECTION END -->
+
+    <!-- MODAL START -->
+
+    <div
+      class="modal fade main-modal"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title w-100" id="exampleModalToggleLabel">
+              Демо версия
+            </h3>
+            <button
+              type="button"
+              class="btn-close mt-1"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="demo-text">
+            <p class="text-center">
+              Заполни форму и наши менеджеры свяжутся с тобой
+            </p>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 modal-form-text">
+                <label for="recipient-name" class="col-form-label">Имя*:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="recipient-name"
+                  placeholder="Иван"
+                  required
+                />
+              </div>
+              <div class="mb-3 modal-form-text">
+                <label for="recipient-name" class="col-form-label"
+                  >Электронная почта*:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="recipient-name"
+                  placeholder="ivan@mail.com"
+                  required
+                />
+              </div>
+              <div class="mb-1 modal-form-text">
+                <label for="recipient-name" class="col-form-label"
+                  >Телефон*:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="recipient-name"
+                  placeholder="+38 000 000 00 00"
+                  required
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="#"
+              ><button
+                class="btn  btn-2"
+                data-bs-target="#exampleModalToggle2"
+                data-bs-toggle="modal"
+                type="button"
+              >
+                Отправить
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade main-modal"
+      id="exampleModalToggle2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title w-100" id="exampleModalToggleLabel">
+              Демо версия
+            </h3>
+            <button
+              type="button"
+              class="btn-close mt-1"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="demo-text">
+            <p class="text-center">
+              Заявка отправленна и наши менеджеры свяжутся с тобой в ближайшее
+              время
+            </p>
+          </div>
+          <div class="modal-body text-center">
+            <img src="/img/message-back.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL End -->
+
+    <script src="./css/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

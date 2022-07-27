@@ -1,0 +1,157 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .active a{
+    color: black !important;
+  }
+  
+  a{
+      text-decoration: none;
+    }
+    .navbar-all {
+      background-color: #fff;
+    
+      .nav-item a {
+        font-size: 13px;
+        color: #061224e5;
+        line-height: 24px;
+      }
+    
+      .btn-1 {
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid;
+        border-color: #1064e5;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: black;
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 16px;
+        font-weight: 500;
+        justify-content: center;
+        line-height: 20px;
+        width: 100px;
+        min-height: 40px;
+      }
+      .btn-1:hover{
+        transition: 0.5s;
+      background-color: #1064e5;
+      color: #fff;
+      }
+     
+      .btn-2 {
+        align-items: center;
+        background-color: #1064e5;
+        border: 0;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 16px;
+        font-weight: 500;
+        justify-content: center;
+        line-height: 20px;
+        width: 180px;
+        min-height: 40px;
+      }
+      .btn-2:hover{
+        transition: 0.5s;
+        color: #1064e5;
+        background-color: #fff;
+        border: 1px solid;
+        border-color: #1064e5;
+      }
+    
+      .select-one {
+        border: 0;
+        background-color: #fff;
+      }
+    }
+  
+
+
+    .error-404{
+      .btn-3 {
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid;
+        border-color: #fff;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 16px;
+        font-weight: 500;
+        justify-content: center;
+        line-height: 20px;
+        width: 178px;
+        min-height: 44px;
+      }
+    
+      .btn-3:hover{
+          background-color: transparent;
+          border-color: #fff;
+      }
+     
+    }
+
+@media (min-width:519px) {
+  .error-404{
+    background-image: url(/img/erorimg1.png);
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-size:auto; 
+    
+    height: 758px;
+}
+  
+}
+
+@media (max-width:518px) {
+  .error-404{
+    background-image: url(/img/errorimg-3.png);
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    height: 758px;
+    
+   
+}
+.error-text{
+  transform: translateY(500px);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+  
+}
+
+@media (min-width:520px) {
+  .error-text{
+    transform: translateY(580px);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+  
+}
+
+
+@media (min-width:992px) {
+    .error-text{
+        width: 50%;
+    }
+}
+
+@media (max-width:992px) {
+    .error-text{
+        width: 80%;
+    }
+}
+
